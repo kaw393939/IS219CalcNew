@@ -5,7 +5,7 @@
   "main": "src/Index.js",
   "scripts": {
     "test": "jest",
-    "start": "node src/Index.js",
+    "start": "node src/Calculator.js",
     "coverage": "jest --coverage",
     "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
   },
