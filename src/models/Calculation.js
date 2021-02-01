@@ -8,7 +8,7 @@ class Calculation {
     }
     //getresults is a method so that it can return back the results of the calculation
     GetResults() {
-        return this.a + this.b
+        return this.op(this.a,this.b)
     }
 }
 module.exports = Calculation;
