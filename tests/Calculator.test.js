@@ -28,9 +28,8 @@ test('Calculator adding to calculations', () => {
     //assigning the results of the calc sum method to an object, calculator returns an object
     let result = Calculator.Quotient(1,2);
     let calculations = Calculator.Calculations
-
-    calculations.forEach(function (calculation) {
-        console.log(calculation.GetResults());
+    calculations.forEach(function (calc) {
+       console.log(calc.GetResults())
     });
-
 });
+

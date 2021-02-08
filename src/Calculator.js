@@ -10,25 +10,25 @@ class Calculator {
     static Sum(a,b) {
         //this is how you create a new object and this is good for data and actions
           let calculation = new Calculation(a,b,Sum);
-          this.Calculations.push(Calculation);
+          Calculator.Calculations.push(calculation);
         return calculation.GetResults();
     }
     static Difference(a,b) {
         //this is how you create a new object and this is good for data and actions
         let calculation = new Calculation(a,b,Difference);
-        this.Calculations.push(Calculation);
+        Calculator.Calculations.push(calculation);
         return calculation.GetResults();
     }
     static Product(a,b) {
         //this is how you create a new object and this is good for data and actions
         let calculation = new Calculation(a,b,Product);
-        this.Calculations.push(Calculation);
+        Calculator.Calculations.push(calculation);
         return calculation.GetResults();
     }
     static Quotient(a,b) {
         //this is how you create a new object and this is good for data and actions
         let calculation = new Calculation(a,b,Quotient);
-        this.Calculations.push(Calculation);
+        Calculator.Calculations.push(calculation);
         return calculation.GetResults();
     }
 }

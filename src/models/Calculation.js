@@ -7,7 +7,7 @@ class Calculation {
         this.op = op;
     }
     //getresults is a method so that it can return back the results of the calculation
-    GetResults() {
+     GetResults() {
         return this.op(this.a,this.b)
     }
 }
